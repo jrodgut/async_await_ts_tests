@@ -1,0 +1,23 @@
+{
+  "name": "async_and_await",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "pretest": "tsc --p test/tsconfig.test.json",
+    "test": "mocha --recursive"
+  },
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@types/chai": "^3.5.2",
+    "@types/mocha": "^2.2.41",
+    "@types/node": "^7.0.12",
+    "chai": "^4.0.0",
+    "mocha": "^3.4.2",
+    "typescript": "^2.2.2"
+  },
+  "dependencies": {
+    "@types/es6-promise": "0.0.32"
+  }
+}
